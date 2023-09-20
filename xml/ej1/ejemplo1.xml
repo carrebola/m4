@@ -1,0 +1,22 @@
+<recetas>
+  <receta nombre="Huevos fritos">
+    <ingredientes>
+      <ingrediente>Huevos</ingrediente>
+      <ingrediente>Sal</ingrediente>
+
+</ingredientes>
+
+
+                  </receta>
+  <receta nombre="Bocata de jamón">
+    <ingredientes>
+      <ingrediente>
+
+
+        Pan</ingrediente>
+      <ingrediente>Jamón</ingrediente>
+      <ingrediente>Tomate</ingrediente>
+      <ingrediente>Aceite</ingrediente>
+    </ingredientes>
+  </receta>
+</recetas>

@@ -1,0 +1,23 @@
+<actores>
+  <actor nombre="Antonio Banderas">
+    <peliculas>
+      <pelicula nombre="La máscara del zorro">
+        <anyo>1998</anyo>
+        <director>Martin Campbell</director>
+      </pelicula>
+      <pelicula nombre="La máscara del Zorro">
+        <anyo>1998</anyo>
+        <director>Martin Campbell</director>
+      </pelicula>
+      <pelicula nombre="La máscara del Zorro">
+        
+        <anyo>1998</anyo>
+        <director>Martin Campbell</director>
+      </pelicula>
+    </peliculas>
+  </actor>
+  <actor></actor>
+  <actor></actor>
+  <actor></actor>
+  <actor></actor>
+</actores>
