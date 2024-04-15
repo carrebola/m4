@@ -1,4 +1,4 @@
-# Ejercicio 2
+# Ejercicio 3 - Jamones
 
 Crear un xml para tienda de jamones.
 - Clientes 

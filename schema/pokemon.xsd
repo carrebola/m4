@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 (http://www.altova.com) by mazuki (darksiderg) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="pokemons">
+		<xs:annotation>
+			<xs:documentation>Esquema para pokemonos</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pokemon" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="altura" type="xs:decimal"/>
+							<xs:element name="categoria" type="xs:string"/>
+							<xs:element name="habilidades">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="habilidad" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="debilidades">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="debilidad" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="puntosBase">
+								<xs:complexType>
+									<xs:attribute name="ps" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:integer">
+												<xs:minInclusive value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="defensa" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:integer">
+												<xs:minInclusive value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="velocidad" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:integer">
+												<xs:minInclusive value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="ataque" type="xs:integer" use="required"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="imagen" type="xs:string" minOccurs="0"/>
+							<xs:element name="sexo">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="masculino" minOccurs="0"/>
+										<xs:element name="femenino" minOccurs="0"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="tipos">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="tipo" maxOccurs="2">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="Roca"/>
+													<xs:enumeration value="Tierra"/>
+													<xs:enumeration value="Fuego"/>
+													<xs:enumeration value="Agua"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="nombre" type="xs:string" use="required"/>
+						<xs:attribute name="codigo" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="([0-9]{1,4})"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

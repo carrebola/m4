@@ -1,0 +1,110 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background-color: white;
+}
+
+#menuSup{
+
+}
+#menuSup ul{
+  display: flex;
+  padding: 0;
+}
+#menuSup ul li{
+  list-style: none;
+  padding: 0 5px 0 5px;
+  font-size: 10px;
+  
+}
+#menuSup ul li a{
+  text-decoration: none;
+  color: gray;
+}
+
+
+#logo{
+  width: 100px;
+}
+#logo img{
+  width: 100%;
+}
+
+#buscador{
+  width: 60%;
+}
+
+#buscador input{
+  width: 100%;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+#iconoMapa{
+  width: 10px;
+}
+#iconoMapa img{
+  width: 100%;
+}
+
+#filaCentral{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menuPrincipal{
+  display: flex;
+  justify-content: center;
+}
+#menuPrincipal ul{
+  display: flex;
+  padding: 0;
+}
+#menuPrincipal ul li{
+  list-style: none;
+  padding: 0 5px 0 5px;
+  font-size: 10px;
+  
+}
+#menuPrincipal ul li a{
+  text-decoration: none;
+  color: gray;
+}
+
+#slide{
+  background-image: url('slide.webp');
+  background-size: cover;
+  height: 800px;
+  margin-bottom: 100px;
+}
+
+#categorias{
+  display: flex;
+  gap:10px; /*espacio entre columnas*/
+  margin-bottom: 100px;
+}
+
+.categoria img{
+  width: 100%;
+}
+
+#series-novedades{
+  display: flex;
+  gap: 10px;
+}
+#series-novedades img{
+  width: 100%;
+}
+
+.serie, .novedades{
+  position: relative;
+}
+
+.grupoImagen{
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color:white;
+}

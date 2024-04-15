@@ -1,0 +1,14 @@
+<inventario>
+
+
+  <equipo codigo="123M4" nombre="teclado" marca="asdfa"
+    puesto="2" />
+  <equipo codigo="123M4" nombre="teclado" marca="asdfa"
+    puesto="3" />
+  <equipo codigo="123M4" nombre="teclado" marca="asdfa"
+    puesto="4" />
+  <equipo codigo="123M4" nombre="teclado" marca="asdfa"
+    puesto="5" />
+
+
+</inventario>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sesión 2 - CSS</title>
+  <style>
+    /* Reglas css */
+    /* Selector de etiqueta */
+    h2{
+      background-color:wheat;
+    }
+    /* Selector de id */
+    #parrafoImportante{
+      color: pink;
+    }
+    /* Selector de clase */
+    .importante{
+      font-weight: bold;
+      font-variant: small-caps;
+    }
+
+    /* Podemos aplicar estilos a varios elementos a la vez*/
+    h1, h2{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+  </style>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h1>Sesión 2 - CSS</h1>
+  <h2 style="color: blue" >Este h2 se le aplica color desde atributo style</h2>
+  <h2>Este es otro h2</h2>
+
+  <p class="importante" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quis blanditiis non quibusdam adipisci consequatur vel est rerum cum, quas unde officiis repellendus asperiores incidunt nulla ducimus modi repudiandae officia?</p>
+
+  <p id="parrafoImportante" class="importante" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eaque minus facilis reprehenderit sit dolorem odio culpa eos, consequuntur doloribus temporibus tempore recusandae consectetur cumque harum amet atque error incidunt!</p>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium et saepe corporis dolores cum ad fugiat, illum rem vero consequuntur neque perspiciatis consequatur iure alias eius necessitatibus. Ut, architecto?</p>
+</body>
+</html>

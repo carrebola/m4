@@ -1,0 +1,10 @@
+<bd>
+    <usuario id="1" dni="12345679L">
+        <nombre>Pepe</nombre>
+        <apellido>Pilote</apellido>
+    </usuario>
+    <usuario id="2" dni="2222679L">
+        <nombre>Pepa</nombre>
+        <apellido>Jamas</apellido>
+    </usuario>
+</bd>
